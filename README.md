@@ -26,3 +26,5 @@ Add .env file with API URL and variable name `REACT_APP_API_BASE_URL`
 ## Screenshot
 
 
+![My image](https://github.com/DikshaSach/ToDoMVC/blob/master/Screenshot.png)
+![My image](https://github.com/DikshaSach/ToDoMVC/blob/master/Screenshot2.png)
