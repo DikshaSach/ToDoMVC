@@ -1,0 +1,157 @@
+.todo-list-item{
+    font-size: 25px;
+  position: relative;
+line-height: 50px;
+    padding-bottom: 10px;
+  margin: 0 auto;
+  display: inline-block;
+  
+  padding: 10px;
+  width: 100%;
+}
+
+.todo-list-item:nth-child(even) {
+    background-color: rgba(230, 230, 237, 0.55);
+}
+
+.todo-list-array-container{
+    background-color: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 3px 4px 0 0;
+    padding-bottom: 20px;
+}
+.todo-text{
+   margin-top: 15px;
+}
+
+
+.delete-bttn{
+    border: 2px solid black;
+    float: right;
+    margin-top: 5px;
+    border-radius: 7px;
+    width: 46px;
+    height: 45px;
+    background-color: #ED6A5A;
+}
+.delete-bttn:hover{
+    background-color: rgb(174, 6, 64);
+    transform: scale(1.1);
+}
+.completion-status{
+    position: relative;
+    float: left;
+
+}
+hr{
+    margin: 0;
+    display: block;
+    width:30%;
+    z-index: 0;
+    margin:0 auto;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgb(96, 91, 91);
+    margin: 0 auto;
+    padding: 0;
+}
+.title-todo{
+    border-top: 3px solid black;
+    background-color: rgb(116, 120, 75);
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 3px solid black;
+}
+
+.empty-container{
+color: white;
+font-size: 30px;
+}
+.counter{
+    color: white;
+font-size: 20px;
+    margin-left: 0
+}
+
+#toDoName{
+    font-size: 18px;
+    width: 100%;
+    height: 45px;
+}
+.checkmark{
+    margin-top: 5px;
+    width: 50px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.checkmark:hover{
+    transform: scale(1.1);
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: dash 2s ease-in-out;
+  -webkit-animation: dash 2s ease-in-out;
+}
+
+.spin {
+  animation: spin 2s;
+  -webkit-animation: spin 2s;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+p {
+  font-family: sans-serif;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  animation: text .5s linear .4s;
+  -webkit-animation: text .4s linear .3s;
+}
+
+
+@keyframes dash {
+ 0% {
+   stroke-dashoffset: 1000;
+ }
+ 100% {
+   stroke-dashoffset: 0;
+ }
+}
+@keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+    
+    @keyframes text {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+
+
+.todoList-container{
+
+    width: 80%;
+    margin: 0 auto;
+}

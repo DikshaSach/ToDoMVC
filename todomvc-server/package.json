@@ -1,0 +1,22 @@
+{
+  "name": "todomvc-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diksha Sach",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5",
+    "morgan": "^1.9.0",
+    "npm": "^6.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
